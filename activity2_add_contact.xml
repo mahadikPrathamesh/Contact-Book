@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.competition.contackbook.AddContact_Activity2"
+    android:paddingTop="@dimen/layout_margin"
+    android:paddingBottom="@dimen/layout_margin"
+    android:paddingRight="@dimen/layout_margin"
+    android:paddingLeft="@dimen/layout_margin">
+
+    <TextView
+        android:id="@+id/TVfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ETfname"
+        android:layout_alignBottom="@+id/ETfname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="First Name"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/ETfname"
+        android:layout_width="220dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints,UnusedAttribute"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/TVlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EDlname"
+        android:layout_alignBottom="@+id/EDlname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Last Name"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/EDlname"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ETfname"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints,UnusedAttribute"/>
+
+
+    <TextView
+        android:id="@+id/TVnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EDnumber"
+        android:layout_alignBottom="@+id/EDnumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Number"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/EDnumber"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EDlname"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints,UnusedAttribute"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/TVemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EDemail"
+        android:layout_alignBottom="@+id/EDemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Email Id"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/EDemail"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EDnumber"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints,UnusedAttribute" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EDemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Add Contact"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,SpUsage"
+        android:id="@+id/button" />
+
+
+
+
+
+
+</RelativeLayout>
